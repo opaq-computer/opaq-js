@@ -1,0 +1,28 @@
+{
+  "name": "@opaq-computer/sdk",
+  "version": "0.1.0",
+  "description": "Private AI inference on Solana. 200+ models through one OpenAI-compatible endpoint, paid from a sealed balance.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": {
+    ".": { "types": "./src/index.d.ts", "default": "./src/index.js" }
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "node --test"
+  },
+  "peerDependencies": {
+    "openai": ">=4"
+  },
+  "devDependencies": {
+    "openai": "^7"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["opaq", "solana", "privacy", "ai", "llm", "openai", "inference", "privacy-rings"],
+  "homepage": "https://opaq.computer/docs",
+  "repository": { "type": "git", "url": "git+https://github.com/opaq-computer/opaq-js.git" },
+  "bugs": { "url": "https://github.com/opaq-computer/opaq-js/issues" },
+  "license": "MIT",
+  "author": "Opaq <team@opaq.computer>"
+}
